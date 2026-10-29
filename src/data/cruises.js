@@ -5,7 +5,7 @@
  * booking/inventory API. The shapes below are the contract the UI depends on, so swapping the
  * source only means replacing the functions in `src/lib/catalog.js`.
  *
- * "Alderwater" is a fictional brand created for this portfolio project.
+ * "Dream" is a fictional brand created for this portfolio project.
  *
  * @typedef {'dawn' | 'day' | 'dusk' | 'mist'} Theme  illustration palette
  * @typedef {'Europe' | 'Southeast Asia'} Region

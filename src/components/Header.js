@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-sand-200/70 bg-cream-100/90 backdrop-blur">
       <div className="container-page flex h-16 items-center justify-between">
-        <Link href="/" aria-label="Alderwater River Cruises, home" className="rounded-lg">
+        <Link href="/" aria-label="Dream River Cruises, home" className="rounded-lg">
           <Logo />
         </Link>
 
