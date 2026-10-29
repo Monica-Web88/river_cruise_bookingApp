@@ -54,7 +54,7 @@ export default function Footer() {
 
       <div className="border-t border-sand-200">
         <p className="container-page py-5 text-xs leading-relaxed text-bark-600">
-          Alderwater River Cruises is a fictional brand created for a front-end engineering
+          Dream River Cruises is a fictional brand created for a front-end engineering
           portfolio project. Itineraries, ships and prices are sample content; no bookings are
           taken.
         </p>

@@ -113,10 +113,10 @@ export default function HomePage() {
               </p>
               <p className="mt-1 text-xs text-bark-600">Imperial capitals of the Danube</p>
             </div>
-            <div className="absolute -right-2 top-6 hidden rounded-2xl border border-sand-200 bg-cream-50/95 px-4 py-3 shadow-lift sm:block">
+           {/* <div className="absolute -right-2 top-6 hidden rounded-2xl border border-sand-200 bg-cream-50/95 px-4 py-3 shadow-lift sm:block">
               <p className="text-xs text-bark-600">Wine with dinner</p>
               <p className="font-serif text-base font-semibold">Always included</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
