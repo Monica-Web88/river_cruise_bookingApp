@@ -56,7 +56,7 @@ src/
 docs/                  architecture decision record
 ```
 
-## Design decisions worth discussing
+## Design Implemented
 
 1. **URL as the source of truth for filters.** No client fetching layer; SSR gives crawlable, shareable results.
 2. **One Zod schema, two runtimes.** The wizard validates per step in the browser; the API re-validates the full payload.
@@ -69,9 +69,4 @@ docs/                  architecture decision record
 
 Push to GitHub and import the repo in Vercel (zero config), or run `npm run build && npm start` on any Node 18.18+ host.
 
-## Ideas to extend
 
-- Swap the catalogue for Builder.io content models and on-demand ISR revalidation (`revalidateTag`).
-- Add Playwright E2E tests for the filter and inquiry flows.
-- Persist inquiries (database / CRM webhook) and send confirmation email.
-- Add Auth0 sign-in and a travel-advisor dashboard.
