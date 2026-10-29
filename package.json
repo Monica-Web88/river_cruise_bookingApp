@@ -1,0 +1,30 @@
+{
+  "name": "alderwater-river-cruises",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alderwater River Cruises - a Next.js 14 + React + JavaScript portfolio project: cruise search, itinerary pages and a multi-step booking inquiry flow.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "tsx --test src/lib/filters.test.js src/lib/inquiry.test.js src/lib/inquiryService.test.js"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
