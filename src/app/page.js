@@ -222,7 +222,7 @@ export default function HomePage() {
       <section aria-labelledby="why-heading" className="container-page pb-6">
         <div className="grid gap-12 rounded-4xl bg-cream-200/70 p-8 sm:p-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="eyebrow">The Alderwater difference</p>
+            <p className="eyebrow">The Dream River Cruise difference</p>
             <h2 id="why-heading" className="mt-2 text-3xl font-semibold sm:text-4xl">
               Thoughtfully inclusive, quietly luxurious
             </h2>

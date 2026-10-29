@@ -8,15 +8,15 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Alderwater River Cruises | Small-ship voyages on Europe’s and Asia’s great rivers',
-    template: '%s | Alderwater River Cruises',
+    default: 'Dream River Cruises | Small-ship voyages on Europe’s and Asia’s great rivers',
+    template: '%s | Dream River Cruises',
   },
   description:
     'Browse river cruises on the Danube, Rhine, Seine, Douro, Rhône and Mekong. Filter by river, month, price and duration, explore day-by-day itineraries and request a personalised quote.',
   openGraph: {
     type: 'website',
-    siteName: 'Alderwater River Cruises',
-    title: 'Alderwater River Cruises',
+    siteName: 'Dream River Cruises',
+    title: 'Dream River Cruises',
     description: 'Small-ship voyages on Europe’s and Asia’s great rivers.',
   },
 };
