@@ -1,9 +1,9 @@
-# Alderwater River Cruises
+# Dream River Cruises
 
 A production-style **Next.js 14 (App Router) + React 18 + JavaScript (ES6+)** web application: a river-cruise
 booking experience with search & filtering, itinerary pages and a multi-step quote flow.
 
-> "Alderwater" is a fictional brand created for a front-end portfolio. All itineraries, ships and prices are sample content.
+> "Dream" is a fictional brand created for a front-end portfolio. All itineraries, ships and prices are sample content.
 
 ## Features
 
@@ -56,7 +56,7 @@ src/
 docs/                  architecture decision record
 ```
 
-## Design Implemented
+## Design decisions worth discussing
 
 1. **URL as the source of truth for filters.** No client fetching layer; SSR gives crawlable, shareable results.
 2. **One Zod schema, two runtimes.** The wizard validates per step in the browser; the API re-validates the full payload.
@@ -69,4 +69,9 @@ docs/                  architecture decision record
 
 Push to GitHub and import the repo in Vercel (zero config), or run `npm run build && npm start` on any Node 18.18+ host.
 
+## Ideas to extend
 
+- Swap the catalogue for Builder.io content models and on-demand ISR revalidation (`revalidateTag`).
+- Add Playwright E2E tests for the filter and inquiry flows.
+- Persist inquiries (database / CRM webhook) and send confirmation email.
+- Add Auth0 sign-in and a travel-advisor dashboard.

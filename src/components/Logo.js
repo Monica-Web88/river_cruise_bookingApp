@@ -20,7 +20,7 @@ export default function Logo({ className = '' }) {
         <path d="M12 19h16l-2.5-5h-11z" fill="#8B6B52" />
       </svg>
       <span className="font-serif text-xl font-semibold tracking-tight text-bark-900">
-        Alderwater
+        Dream
         <span className="ml-1 hidden text-sm font-normal text-sand-700 sm:inline">
           River Cruises
         </span>

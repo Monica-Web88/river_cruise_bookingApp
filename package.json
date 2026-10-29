@@ -1,8 +1,8 @@
 {
-  "name": "alderwater-river-cruises",
+  "name": "dream-river-cruises",
   "version": "1.0.0",
   "private": true,
-  "description": "Alderwater River Cruises - a Next.js 14 + React + JavaScript portfolio project: cruise search, itinerary pages and a multi-step booking inquiry flow.",
+  "description": "Dream River Cruises - a Next.js 14 + React + JavaScript portfolio project: cruise search, itinerary pages and a multi-step booking inquiry flow.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
