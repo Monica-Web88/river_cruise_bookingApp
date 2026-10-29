@@ -46,7 +46,8 @@ export default function RiverScene({ uid, theme, className = '' }) {
   const hillShift = (h % 90) - 45;
   const birdX = 520 + ((h >> 7) % 160);
   return (
-    <svg
+    {/**
+      <svg
       viewBox="0 0 800 500"
       className={className}
       preserveAspectRatio="xMidYMid slice"
@@ -89,7 +90,7 @@ export default function RiverScene({ uid, theme, className = '' }) {
         opacity="0.9"
       />
 
-      {/* water shimmer */}
+      // water shimmer 
       <g stroke="#FFFFFF" strokeOpacity="0.45" strokeWidth="2" strokeLinecap="round">
         <path d="M60 420 h70" />
         <path d="M210 448 h110" />
@@ -98,13 +99,13 @@ export default function RiverScene({ uid, theme, className = '' }) {
         <path d="M330 480 h80" />
       </g>
 
-      {/* reflection */}
+      // reflection 
       <g transform={`translate(${shipX} 410) scale(1 -0.55)`} opacity="0.22">
         <path d="M0 0 H170 L152 24 H18 Z" fill="#FFFDF8" />
         <rect x="24" y="-20" width="118" height="20" rx="4" fill="#FFFDF8" />
       </g>
 
-      {/* ship */}
+      // ship 
       <g transform={`translate(${shipX} 372)`}>
         <rect x="92" y="-50" width="14" height="14" rx="2" fill={p.hills[2]} />
         <rect x="48" y="-36" width="72" height="16" rx="4" fill="#FFFDF8" />
@@ -121,15 +122,17 @@ export default function RiverScene({ uid, theme, className = '' }) {
         </g>
       </g>
 
-      {/* foreground reeds */}
+      //foreground reeds
       <path d="M-40 520 V470 C40 430 110 462 190 500 V520 Z" fill={p.hills[2]} opacity="0.92" />
       <path d="M700 520 V482 C740 450 790 462 860 440 V520 Z" fill={p.hills[2]} opacity="0.85" />
 
-      {/* birds */}
+      // birds 
       <g stroke={p.hills[2]} strokeWidth="2" fill="none" strokeLinecap="round" opacity="0.7">
         <path d={`M${birdX} 150 q8 -8 16 0 q8 -8 16 0`} />
         <path d={`M${birdX + 44} 128 q6 -6 12 0 q6 -6 12 0`} />
       </g>
-    </svg>
-  );
-}
+    </svg> **/}
+
+    (<img src="/images/river_cruise_home_page.png" alt="Dream River Cruise" className={className}></img>)
+
+  ); }

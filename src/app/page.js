@@ -32,9 +32,9 @@ export default function HomePage() {
 
         <div className="container-page relative grid items-center gap-12 pb-20 pt-12 lg:grid-cols-[1.05fr_1fr] lg:pb-28 lg:pt-20">
           <div className="animate-fade-up">
-            <p className="eyebrow">Boutique river cruising</p>
+            <p className="eyebrow">River cruising</p>
             <h1 className="mt-4 text-4xl font-semibold leading-[1.1] sm:text-5xl lg:text-6xl">
-              Slow down on the water.
+              Sail into Serenity.
               <span className="block text-mist-700">Wake up somewhere extraordinary.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-bark-600">
