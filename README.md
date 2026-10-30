@@ -1,6 +1,6 @@
 # Dream River Cruises
 
-A production-style **Next.js 14 (App Router) + React 18 + JavaScript (ES6+)** web application: a river-cruise
+A production-style **Next.js 14 (App Router) + React 18 + TypeScript + JavaScript (ES6+)** web application: a river-cruise
 booking experience with search & filtering, itinerary pages and a multi-step quote flow.
 
 > "Dream" is a fictional brand created for a front-end portfolio. All itineraries, ships and prices are sample content.
